@@ -6,7 +6,6 @@ import java.util.ArrayList;
 public class Problem13 {
     public static void main(String[] args) {
         BigInteger sum = new BigInteger("0");
-        float sumFloat = 0;
         ArrayList<BigInteger> numbers = new ArrayList<BigInteger>();
         numbers.add(new BigInteger("37107287533902102798797998220837590246510135740250"));
         numbers.add(new BigInteger("46376937677490009712648124896970078050417018260538"));

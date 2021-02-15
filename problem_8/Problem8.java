@@ -38,7 +38,6 @@ public class Problem8 {
 
     public void calculateLargestProduct() {
         int indexOfZero = 0;
-        long product;
         for (int i = 0; i < digits.length() - numDigits + 1; i++) {
             indexOfZero = productConatainsZero(i);
             if(indexOfZero == -1) {

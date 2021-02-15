@@ -1,6 +1,5 @@
 package problem_2;
 
-import java.lang.reflect.Array;
 
 public class Main {
     static int LIMIT = 4000000;

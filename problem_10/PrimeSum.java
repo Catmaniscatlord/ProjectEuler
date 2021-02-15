@@ -1,6 +1,5 @@
 package problem_10;
 
-import problem_10.Primes;
 
 public class PrimeSum {
     public static void main(String[] args) {

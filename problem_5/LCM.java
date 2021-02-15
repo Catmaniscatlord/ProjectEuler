@@ -1,7 +1,6 @@
 package problem_5;
 
 import java.math.BigInteger;
-import java.util.Arrays;
 
 /* This program finds the least common multiple of all numbers 
  *  up to a certain number, limit : 7919
