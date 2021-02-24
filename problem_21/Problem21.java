@@ -4,13 +4,14 @@ import java.util.HashMap;
 
 public class Problem21 {
     
+    public static int MAX = 10000;
     public static void main(String[] args) {
         long time = System.currentTimeMillis();
         Problem21 kevin = new Problem21();
         
         int amicableSum = 0;
 
-        for (int i = 1; i < 10000; i++) {
+        for (int i = 1; i < MAX; i++) {
             kevin.generateChain(i);
             int pointsTo = kevin.amicableLinks.get(i);
             
@@ -38,7 +39,7 @@ public class Problem21 {
         } else {
             int factorSum = factors.sumOfFactors(n);
             amicableLinks.put(n, factorSum);
-            if(factorSum < 10000)
+            if(factorSum < MAX)
                 generateChain(factorSum);
         }
         return 0;
