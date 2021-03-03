@@ -1,0 +1,8 @@
+this problem can be reduced to to the following equation 
+1 + sum_{n=0}^{a}(2n(4+3+2+1)) + sum_{n=1}^{a-1}((a-n)(4*4*2n)) + 4(a)
+or 
+1 + a(a-1)(20 + a32)/2 - 32(a(a-1)(2a-1))/6 + 4(a)
+
+where a = floor(n / 2)
+
+where n is the size of the square
